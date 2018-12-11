@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
+    <width>732</width>
     <height>396</height>
    </rect>
   </property>
@@ -94,7 +94,7 @@
          <widget class="QComboBox" name="comboBox"/>
         </item>
         <item row="2" column="0">
-         <widget class="QPushButton" name="launch_Button">
+         <widget class="QPushButton" name="launchButton">
           <property name="text">
            <string>MainDisplay</string>
           </property>
@@ -117,14 +117,14 @@
      <item>
       <widget class="QListWidget" name="listWidget">
        <property name="sizePolicy">
-        <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+        <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
        <property name="maximumSize">
         <size>
-         <width>140</width>
+         <width>200</width>
          <height>16777215</height>
         </size>
        </property>
@@ -161,9 +161,9 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
-        <widget class="QPushButton" name="openButton">
+        <widget class="QPushButton" name="backButton">
          <property name="text">
-          <string>open</string>
+          <string>back</string>
          </property>
         </widget>
        </item>
@@ -181,7 +181,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="next_pushButton">
+        <widget class="QPushButton" name="nextButton">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
